@@ -1,0 +1,89 @@
+
+@font-face {
+   font-family: 'LINESeedKR-Bd';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'SBAggroB';
+   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+.lol_uis{
+   width: 100%;
+   height: 100vh;
+   background-image: url("https://firebasestorage.googleapis.com/v0/b/plogprojects.appspot.com/o/gallery%2F%EC%BA%A1%EC%B2%98.JPG?alt=media&token=e9839109-6ae1-4be0-b9e9-0bef1ec3a691");
+}
+.top{
+   width: 100%;
+   height: 63px;
+   position: relative;
+}
+.top>div{
+   width: 240px;
+   height: 45px;
+   position: absolute;
+   color: #fff;
+   font-size: 23px;
+   line-height: 44px;
+   font-family: 'LINESeedKR-Bd';
+   letter-spacing: 3px;
+}
+.blue{
+   left: 235px;
+   border: 2px solid #5b5346;
+   background-color: #0f1957;
+   border-right: none;
+}
+.red{
+   right: 222px;
+   border: 2px solid #5b5346;
+   background-color: #570c0c;
+   border-left: none;
+}
+.team>span{
+   text-align: center;
+   display: inline-block;
+   overflow: hidden;
+}
+.teamName{
+   width: 75%;
+}
+.scores{
+   width: 25%;
+}
+.dragons{
+   width: 100%;
+   height: 50px;
+   position: relative;
+}
+.dragon{
+   width: 200px;
+   height: 70%;
+   position: absolute;
+   border: 1px solid rgb(126, 100, 63);
+   border-top: none;
+   background-color: rgb(12, 30, 34);
+   display: flex;
+}
+.blueD{
+   left: calc(47% - 215px);
+}
+.redD{
+   right: calc(46% - 210px);
+}
+.dragon>div{
+   width: 25%;
+   text-align: center;
+}
+.dragon>div>span{
+   display: inline-block;
+   width: 30px;
+   margin-top: 2px;
+   height: 30px;
+   border-radius: 50%;
+   color: #fff;
+   background-size: contain;
+}
